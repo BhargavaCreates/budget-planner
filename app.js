@@ -40,7 +40,7 @@ confirmBtn.addEventListener('click',() => {
     enteredExpenses.appendChild(newItem);
 
     totalExpenses += +enteredAmount;
-    totalExpensesOutput.textContent = " : " + String(totalExpenses);
+    totalExpensesOutput.textContent = " : INR " + String(totalExpenses);
 
     clear();
 
